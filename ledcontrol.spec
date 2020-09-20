@@ -9,6 +9,8 @@ BuildRequires:	cmake(Qt5Core)
 BuildRequires:	cmake(Qt5DBus)
 BuildRequires:	cmake
 BuildRequires:	ninja
+# Only for CMake's checks
+BuildRequires:	qmake5
 
 %description
 A tool that allows users to control LEDs over D-Bus. It is primarily
