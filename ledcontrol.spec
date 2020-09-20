@@ -5,6 +5,10 @@ Release:	1
 Group:		System
 Source0:	https://github.com/OpenMandrivaSoftware/ledcontrol/archive/%{version}/%{name}-%{version}.tar.gz
 License:	GPLv3
+BuildRequires:	cmake(Qt5Core)
+BuildRequires:	cmake(Qt5DBus)
+BuildRequires:	cmake
+BuildRequires:	ninja
 
 %description
 A tool that allows users to control LEDs over D-Bus. It is primarily
