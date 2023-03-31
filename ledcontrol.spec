@@ -1,7 +1,7 @@
 Summary:	Tool to control LEDs over D-Bus
 Name:		ledcontrol
 Version:	0.0.1
-Release:	2
+Release:	3
 Group:		System
 Source0:	https://github.com/OpenMandrivaSoftware/ledcontrol/archive/%{version}/%{name}-%{version}.tar.gz
 License:	GPLv3
